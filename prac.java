@@ -60,22 +60,76 @@
 
 
 
-class Student{
-    String name;
-    int age;
+// class Student{
+//     String name;
+//     int age;
 
-    public void printInfo(){
-        System.out.println(this.name);
-        System.out.println(this.age);
+//     public void printInfo(){
+//         System.out.println(this.name);
+//         System.out.println(this.age);
+
+//     }
+// }
+// public class prac{
+//     public static void main (String args[]){
+//     Student s1 = new Student();
+//     s1.name = "Suraj";
+//     s1.age = 22;
+
+//     s1.printInfo();
+// }
+// }
+
+
+
+
+
+
+
+class shape{
+    public void area(){
+        System.out.println("disply area");
 
     }
 }
-public class prac{
-    public static void main (String args[]){
-    Student s1 = new Student();
-    s1.name = "Suraj";
-    s1.age = 22;
+class Triangle extends shape {
+    public void area(int l, int h){
+        System.out.println(1/2*l*h);
 
-    s1.printInfo();
+    }
+
 }
+
+class EquilateralTriangle extends Triangle {
+    public void area (int l,int h){
+        System.out.println(1/2*l*h);
+    }
 }
+
+
+class Circle extends shape{
+    public void area (int r){
+        System.out.println(1/2*r*r);
+    }
+
+}
+
+public class prac{
+
+    public static void main(String[] args){
+
+    }
+}                                        
+
+
+
+
+
+
+
+
+
+
+
+                                                     
+ 
