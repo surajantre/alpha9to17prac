@@ -199,24 +199,133 @@
 
 //     }
 // }
-import java.util.*;
+// import java.util.*;
+
+// public class pract1{
+//     public static void hello_rectangle(int totRows,int totCols){
+//         for(int i=0;i<=totRows;i++){
+//             for(int j=0;j<=totCols;j++){
+//                 if(i==1||i==totRows||j == 1|| j==totCols ){
+//                     System.out.println("*");
+//                 }else{
+//                 System.out.println(" ");
+//             }
+//         }
+//         System.out.println();
+
+//         }
+//     }
+//     public static void main(String[] args){
+//          hello_rectangle(4, 5);
+
+//     }
+// }
+
+
+
+
+// public class pract1{
+//     public static void zeroOneTriangle(int n){
+//         for(int i=1; i<=n; i++){
+//             for(int j=1; j<=n; j++){
+//                 if((i+j)%2==0){
+//                     System.out.print("1");
+
+//                 }else{
+//                     System.out.print("0");
+//                 }
+                
+
+//         }
+//         System.out.println();
+//     }
+    
+//     }
+//     public static void main(String[] args){
+//         zeroOneTriangle(4);
+
+
+//     }
+// }
+
+
+
+// public class pract1{
+//     public static void butterfly(int n){
+//        for(int i=0; i<=n; i++){
+
+//         for(int j=0; j<=i; j++){
+//             System.out.print("*");
+//        }
+//        for(int j=0; j<=2*(n-i); j++){
+//         System.out.print(" ");
+
+//        }
+//        for(int j=0; j<=i; j++){
+//         System.out.print("*");
+//        }
+//        System.out.println();
+//        }
+    
+
+//     for(int i=n; i>=1; i--){
+        
+//         for(int j=0; j<=i; j++){
+//             System.out.print("*");
+//        }
+//        for(int j=0; j<=2*(n-i); j++){
+//         System.out.print(" ");
+
+//        }
+//        for(int j=0; j<=i; j++){
+//         System.out.print("*");
+//        }
+//        System.out.println();
+//     }
+//        }
+    
+//     public static void main(String[] args){
+//         butterfly(9);
+
+//     }
+// }
 
 public class pract1{
-    public static void hello_rectangle(int totRows,int totCols){
-        for(int i=0;i<=totRows;i++){
-            for(int j=0;j<=totCols;j++){
-                if(i==1||i==totRows||j == 1|| j==totCols ){
-                    System.out.println("*");
-                }else{
-                System.out.println(" ");
+    public static void butterfiy(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+
             }
-        }
-        System.out.println();
+            for(int j=1; j<=2*(n-i);j++) {
+                System.out.print(" ");
+            }
+             for(int j=1; j<=i; j++){
+                System.out.print("*");
+             }
+             System.out.println();
 
         }
-    }
-    public static void main(String[] args){
-         hello_rectangle(4, 5);
+        for(int i=n; i>=1;i--){
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+
+            }
+            for(int j=1; j<=2*(n-i);j++) {
+                System.out.print(" ");
+            }
+             for(int j=1; j<=i; j++){
+                System.out.print("*");
+             }
+             System.out.println();
+
+        }
+
+        }
+    
+    public static void main(String args[]){
+        butterfiy(4);
 
     }
+
 }
