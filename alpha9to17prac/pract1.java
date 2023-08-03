@@ -290,42 +290,91 @@
 //     }
 // }
 
-public class pract1{
-    public static void butterfiy(int n){
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print("*");
+// public class pract1{
+//     public static void butterfiy(int n){
+//         for(int i=1; i<=n; i++){
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
 
-            }
-            for(int j=1; j<=2*(n-i);j++) {
-                System.out.print(" ");
-            }
-             for(int j=1; j<=i; j++){
-                System.out.print("*");
-             }
-             System.out.println();
+//             }
+//             for(int j=1; j<=2*(n-i);j++) {
+//                 System.out.print(" ");
+//             }
+//              for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//              }
+//              System.out.println();
 
-        }
-        for(int i=n; i>=1;i--){
-            for(int j=1; j<=i; j++){
-                System.out.print("*");
+//         }
+//         for(int i=n; i>=1;i--){
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
 
-            }
-            for(int j=1; j<=2*(n-i);j++) {
-                System.out.print(" ");
-            }
-             for(int j=1; j<=i; j++){
-                System.out.print("*");
-             }
-             System.out.println();
+//             }
+//             for(int j=1; j<=2*(n-i);j++) {
+//                 System.out.print(" ");
+//             }
+//              for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//              }
+//              System.out.println();
 
-        }
+//         }
 
-        }
+//         }
     
-    public static void main(String args[]){
-        butterfiy(4);
+//     public static void main(String args[]){
+//         butterfiy(4);
 
-    }
+//     }
 
-}
+// }
+
+
+
+// public class pract1{
+//     public static void findLinearSearcher(int number[],int key){
+//         for(int i =0;i<numbers.length;i++){
+//             if(numbers[i]==key){
+//             return i;
+//         }
+        
+//     }
+//      return -1;
+
+//     }
+//     public static void main(String[] args){
+//         int numbers[]={2,3,5,7,9,1,3,5,7,9,};
+//         int key = 10;
+
+//         int index = findLinearSearcher(numbers,key);
+//         if (i==-1){
+//             System.out.println("key is not found");
+
+//         }else{
+//             System.out.println("key is at index " + index);
+//         }
+//     }
+// }
+
+
+
+// import JAVA.UTIL.*;
+// public class pract1{
+//     public static void largestvalue(int numbers[]){
+//         int largest=Integer.MIN_VALUE;  
+
+//         for (int i=0;i<numbers.length;i++){
+//             if (largest < numbers[i]){
+//                 lartgest = numbers[i];
+//             }
+//         }
+//         return largest;
+
+//     }
+//     public static void main(String args[]){
+//         int numbers[]={1,2,3,5,7,9,1};
+//         System.out.println("LARGEST VALUE IS: " + largestvalue(numbers));
+
+//     }
+// }
