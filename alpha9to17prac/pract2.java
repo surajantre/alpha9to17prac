@@ -128,3 +128,31 @@
 // }
 
 
+public class pract2{
+
+    public static void reverce(int numbers[]){
+        int first = 0;
+        int last = numbers.length-1;
+
+        while(first < last){
+
+            int temp = numbers[first];
+            numbers[first] = numbers[last];
+            numbers[last] = temp;
+
+            first++;
+            last--;
+        }
+
+    }
+    public static void main(String args[]){
+        int numbers[] = {1,2,3,4,5,7,9};
+
+        reverce(numbers);
+
+        for(int i=0; i<numbers.length; i++){
+            System.out.print( numbers[i]);
+        }
+        System.out.println();
+    }
+}
