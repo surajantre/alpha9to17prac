@@ -214,24 +214,92 @@
 
 
 
-import java.util.*;
-public class abc{ 
-    public static void main(String[] args){
-        int matrix[][]= new int[3][3];
-        int n = matrix.length;int m =matrix[0].length;
+// import java.util.*;
+// public class abc{ 
+//     public static void main(String[] args){
+//         int matrix[][]= new int[3][3];
+//         int n = matrix.length;int m =matrix[0].length;
 
-        Scanner sc =new Scanner(System.in);
+//         Scanner sc =new Scanner(System.in);
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                matrix[i][j] = sc.nextInt();
-            }
-        }
-         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-            System.out.println(matrix[i][j]+" " );
+//         for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+//                 matrix[i][j] = sc.nextInt();
+//             }
+//         }
+//          for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+//             System.out.println(matrix[i][j]+" " );
+//     }
+//     System.out.println();
+// }
+// }
+// }      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class pen {
+    String colour;
+    String type;//bollpoint; gel
+
+    /*public void write(){
+        System.out.println("writing something");
+    }*/
+
+     public void printColour(){
+    System.out.println(this.colour);
     }
-    System.out.println();
 }
+public class abc{   
+    public static void main(String args[]){
+        pen pen1 = new pen();
+        pen1.colour = "blue";
+        pen1.type = "gel";
+
+
+        pen pen2 = new pen();
+        pen2.colour = "black";
+        pen2.type = "ballpoint";
+        
+        pen1.printColour();
+        pen2.printColour();     
+       // pen1.write();
+    }
+
 }
-}
+
+
+
