@@ -245,6 +245,70 @@
 
 
 
+// public class abc{
+
+//      public static void  asr(int arr[]){
+//         int start = 0;
+//         int last = arr.length -1;
+
+//         while(start<last){
+//             int temp = arr [start];
+//             arr[start]=arr[last];
+//             arr[last]=  temp;
+
+
+//             start ++;
+//             last --;
+
+
+
+//         }
+//      }
+//     public static void main(String[] args){
+//         int arr[]={1,2,3,4,5,6,7,8,9};
+
+//         asr(arr);
+
+
+//         for(int i=0;i<=arr.length;i++){
+//             System.out.print("fcadefr"+args);
+//         }
+//         System.out.println();
+
+
+//     }
+// }
+
+
+// public class abc {
+//     public static void revercearry(int numbers[]){
+//         int first = 0; int last = numbers.length-1;
+
+//         while(first<last){
+//             int temp = numbers[first];
+//             numbers[first] = numbers[last];
+//             numbers[last] = temp;
+
+//             first++;
+//             last--;
+
+
+//         }
+
+//     }
+//     public static void main (String[] args) {
+//         int numbers[]={1,2,3,5,7,9};
+
+//         revercearry(numbers);
+
+
+//         for(int i=0; i<numbers.length; i++){
+//             System.out.print(numbers[i]+" ");
+//         }
+//         System.out.println();
+//     }
+
+// }
 
 
 
@@ -269,37 +333,35 @@
 
 
 
+// class pen {
+//     String colour;
+//     String type;//bollpoint; gel
+
+//     /*public void write(){
+//         System.out.println("writing something");
+//     }*/
+
+//      public void printColour(){
+//     System.out.println(this.colour);
+//     }
+// }
+// public class abc{   
+//     public static void main(String args[]){
+//         pen pen1 = new pen();
+//         pen1.colour = "blue";
+//         pen1.type = "gel";
 
 
-class pen {
-    String colour;
-    String type;//bollpoint; gel
-
-    /*public void write(){
-        System.out.println("writing something");
-    }*/
-
-     public void printColour(){
-    System.out.println(this.colour);
-    }
-}
-public class abc{   
-    public static void main(String args[]){
-        pen pen1 = new pen();
-        pen1.colour = "blue";
-        pen1.type = "gel";
-
-
-        pen pen2 = new pen();
-        pen2.colour = "black";
-        pen2.type = "ballpoint";
+//         pen pen2 = new pen();
+//         pen2.colour = "black";
+//         pen2.type = "ballpoint";
         
-        pen1.printColour();
-        pen2.printColour();     
-       // pen1.write();
-    }
+//         pen1.printColour();
+//         pen2.printColour();     
+//        // pen1.write();
+//     }
 
-}
+// }
 
 
 
